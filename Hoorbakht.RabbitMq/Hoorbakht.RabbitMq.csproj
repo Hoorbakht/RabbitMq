@@ -4,11 +4,30 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Mahyar Hoorbakht</Authors>
+		<Description>Simple RabbitMq Api for .Net 8 .</Description>
+		<Copyright>© 2024</Copyright>
+		<PackageProjectUrl>https://github.com/Hoorbakht/RabbitMq</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Hoorbakht/RabbitMq</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>RabbitMq, .Net 8, RabbitMq.Client, Service Bus</PackageTags>
+		<PackageIcon>Hoorbakht.png</PackageIcon>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
 		<PackageReference Include="RestSharp" Version="110.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Hoorbakht.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
